@@ -47,8 +47,8 @@ storage_os_disk {
 
 os_profile {
 	computer_name = "IaaC-linuxvm"
-	admin_username = "vivek"
-	admin_password = "P@ssw0rd1234"
+	admin_username = ""
+	admin_password = ""
 	custom_data = file("InstallApache.sh")
 }
 
